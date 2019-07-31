@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c545cc108ff7943686b67e4449cd09e6",
+    "revision": "d324014c5369b6d96b5e54a7c5d8f269",
     "url": "/dice-roller-react/index.html"
   },
   {
-    "revision": "38c505781d366f82c41d",
+    "revision": "ee9048b003faf883a1b1",
     "url": "/dice-roller-react/static/css/main.8b443915.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dice-roller-react/static/js/2.cd0b3fd4.chunk.js"
   },
   {
-    "revision": "38c505781d366f82c41d",
-    "url": "/dice-roller-react/static/js/main.6e0972b2.chunk.js"
+    "revision": "ee9048b003faf883a1b1",
+    "url": "/dice-roller-react/static/js/main.e4c22a13.chunk.js"
   },
   {
     "revision": "b9eadb38887a2a243e18",
