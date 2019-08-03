@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/dice-roller-react/static/css/main.d23cda24.chunk.css",
-    "main.js": "/dice-roller-react/static/js/main.b2e4c0d4.chunk.js",
-    "main.js.map": "/dice-roller-react/static/js/main.b2e4c0d4.chunk.js.map",
+    "main.css": "/dice-roller-react/static/css/main.bbf9c2e6.chunk.css",
+    "main.js": "/dice-roller-react/static/js/main.d1975535.chunk.js",
+    "main.js.map": "/dice-roller-react/static/js/main.d1975535.chunk.js.map",
     "runtime~main.js": "/dice-roller-react/static/js/runtime~main.27446910.js",
     "runtime~main.js.map": "/dice-roller-react/static/js/runtime~main.27446910.js.map",
-    "static/js/2.d18ba4ae.chunk.js": "/dice-roller-react/static/js/2.d18ba4ae.chunk.js",
-    "static/js/2.d18ba4ae.chunk.js.map": "/dice-roller-react/static/js/2.d18ba4ae.chunk.js.map",
+    "static/js/2.f07a7408.chunk.js": "/dice-roller-react/static/js/2.f07a7408.chunk.js",
+    "static/js/2.f07a7408.chunk.js.map": "/dice-roller-react/static/js/2.f07a7408.chunk.js.map",
     "index.html": "/dice-roller-react/index.html",
-    "precache-manifest.b121a38d1fce0bdba3e0895940260420.js": "/dice-roller-react/precache-manifest.b121a38d1fce0bdba3e0895940260420.js",
+    "precache-manifest.48498a019e47e2a4a0312f9ef567c562.js": "/dice-roller-react/precache-manifest.48498a019e47e2a4a0312f9ef567c562.js",
     "service-worker.js": "/dice-roller-react/service-worker.js",
-    "static/css/main.d23cda24.chunk.css.map": "/dice-roller-react/static/css/main.d23cda24.chunk.css.map",
-    "static/media/2.png": "/dice-roller-react/static/media/2.30e4c66f.png",
-    "static/media/3.png": "/dice-roller-react/static/media/3.1c898630.png",
-    "static/media/4.png": "/dice-roller-react/static/media/4.2db95c2f.png",
-    "static/media/5.png": "/dice-roller-react/static/media/5.909f5128.png",
-    "static/media/6.png": "/dice-roller-react/static/media/6.115f8bbd.png"
+    "static/css/main.bbf9c2e6.chunk.css.map": "/dice-roller-react/static/css/main.bbf9c2e6.chunk.css.map"
   }
 }
