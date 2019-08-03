@@ -1,21 +1,27 @@
 import React, { useState, useEffect } from "react";
-import Die from "../die/die.component";
+import DieFaceView from "../die-face-view/die-face-view.component";
+import getRandonInt from "../../randomizer";
 
-function DiceRoller({ dieOne, dieTwo, rollDieOne, rollDieTwo }) {
-  const [randOne, setRandOne] = useState(dieOne);
-  const [randTwo, setRandTwo] = useState(dieTwo);
+function DiceRoller({
+  dieOneSideArray,
+  dieOneSideNumber,
+  dieTwoSideArray,
+  dieTwoSideNumber,
+  rollDieOne,
+  rollDieTwo
+}) {
+  console.log(dieOneSideArray);
+  console.log(dieOneSideNumber);
+  console.log(dieTwoSideArray);
+  console.log(dieTwoSideNumber);
+  // const [randOne, setRandOne] = useState(dieOne);
+  // const [randTwo, setRandTwo] = useState(dieTwo);
 
-  useEffect(() => {
-    // setState for dieOne
-    setRandOne(dieOne);
-    setRandTwo(dieTwo);
-  }, [dieOne, dieTwo]);
-
-  function getRandonInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
+  // useEffect(() => {
+  //   // setState for dieOne
+  //   setRandOne(dieOne);
+  //   setRandTwo(dieTwo);
+  // }, [dieOne, dieTwo]);
 
   const handleClick = () => {
     //dispatch an action to change to the current number rolled for each die
@@ -26,10 +32,12 @@ function DiceRoller({ dieOne, dieTwo, rollDieOne, rollDieTwo }) {
   return (
     <div className="container">
       <div className="dice-container">
-        <Die rand={randOne} className="dice" />
-        <Die rand={randTwo} className="dice" />
+        {/*<Die rand={randOne} className="dice" />*/}
+        {/*<Die rand={randTwo} className="dice" />*/}
+        <DieFaceView dotsToRender={dieOneSideArray} />
+        <DieFaceView dotsToRender={dieTwoSideArray} />
       </div>
-      <div>{dieOne + dieTwo}</div>
+      <div>{dieOneSideNumber + dieTwoSideNumber}</div>
       <button onClick={handleClick}>Roll</button>
     </div>
   );
