@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dice-roller-react/static/css/main.bbf9c2e6.chunk.css",
+    "main.css": "/dice-roller-react/static/css/main.c9c1c825.chunk.css",
     "main.js": "/dice-roller-react/static/js/main.d1975535.chunk.js",
     "main.js.map": "/dice-roller-react/static/js/main.d1975535.chunk.js.map",
     "runtime~main.js": "/dice-roller-react/static/js/runtime~main.27446910.js",
@@ -8,8 +8,8 @@
     "static/js/2.f07a7408.chunk.js": "/dice-roller-react/static/js/2.f07a7408.chunk.js",
     "static/js/2.f07a7408.chunk.js.map": "/dice-roller-react/static/js/2.f07a7408.chunk.js.map",
     "index.html": "/dice-roller-react/index.html",
-    "precache-manifest.48498a019e47e2a4a0312f9ef567c562.js": "/dice-roller-react/precache-manifest.48498a019e47e2a4a0312f9ef567c562.js",
+    "precache-manifest.3cb301188b95e056af8fef12060602fd.js": "/dice-roller-react/precache-manifest.3cb301188b95e056af8fef12060602fd.js",
     "service-worker.js": "/dice-roller-react/service-worker.js",
-    "static/css/main.bbf9c2e6.chunk.css.map": "/dice-roller-react/static/css/main.bbf9c2e6.chunk.css.map"
+    "static/css/main.c9c1c825.chunk.css.map": "/dice-roller-react/static/css/main.c9c1c825.chunk.css.map"
   }
 }
