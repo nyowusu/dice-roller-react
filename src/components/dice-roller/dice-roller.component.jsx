@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import DieFaceView from "../die-face-view/die-face-view.component";
 import getRandonInt from "../../randomizer";
 
